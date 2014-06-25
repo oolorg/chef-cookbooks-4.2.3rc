@@ -31,6 +31,8 @@ run_list(
   "role[nova-vncproxy]",
   "role[horizon-server]",
   "role[openstack-ha]",
+  "role[heat-all]",
+  "role[bootstrap]",
   "role[openstack-logging]"
 )
 
